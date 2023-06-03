@@ -1,4 +1,3 @@
-terraform/gcloud/terraform.tfvars
 terraform/gcloud/.terraform.lock.hcl
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
