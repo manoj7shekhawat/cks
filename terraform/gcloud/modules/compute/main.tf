@@ -24,7 +24,8 @@ resource "google_compute_instance" "compute_instance" {
   scheduling {
     provisioning_model          = each.value.provisioning_model
     instance_termination_action = each.value.instance_termination_action
-    preemptible  = true
+    preemptible       = true
+    automatic_restart = false
   }
 
   network_interface {
